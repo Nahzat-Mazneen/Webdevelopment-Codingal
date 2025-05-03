@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+   *{
+  
+    font-size: 38px;
+    font-weight: 500;
+   }
+    h3{
+    color:blue;
+    }
+    h4{
+    color:pink;
+    }
+   .myclass{
+    color:green;
+    }
+  #myid{
+    color:red;
+  }
+  h5,p{
+    color:maroon;
+  }
+  

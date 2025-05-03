@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+  body{
+    background-color:coral; 
+    background-image: url("green.jpg"); 
+    background-repeat: no-repeat];
+    background-position: top;
+    background-attachment:fixed;
+    
+  }
+    #grad1 {
+      height:200px;
+      background-color: red;
+     background-image: linear-gradient(to top right, red,teal,yellow);  
+      
+    }
+  /*the animation code */
+    @keyframes example{
+      1%{background-color: forestgreen;}
+      25%{background-color: yellow;}
+      30%{background-color: violet;}
+      100%{background-color: ivory;}
+    }
+    /*the element to apply the animation to */
+    #k{
+      width: 500px;
+      height: 600px;
+      background-color: darkred;
+      animation-name: example;
+      animation-duration: 10s;
+    }
+  
+    </style>
+</head>
+
+<body>
+  
+  <div id="grad1">
+    Hello World
+  </div>
+  <div id="k">Hi guys</div>
+  
+</body>
+
+</html>

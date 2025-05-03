@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <style>
+    div.normal{
+      right:30px;
+      border:3px solid rgb(126,111,111);
+    
+    }
+    div.absolute{
+      position:absolute;
+      left:200px;
+      top:50px;
+      border:3px solid green;
+      width:1000px;
+    }
+    div.relative{
+      position:relative;
+    
+    left:50px;
+      top:100px;
+      border:3px solid red;
+      height:700px;
+
+    }
+    div.fixed{
+      position:fixed;
+      top:30px;
+      right:20px;
+      /* which ever comes the last over writes the previous*/
+      width:500px;
+      /*left:20px;*/
+      border:3px solid blue;
+    }
+    div.sticky{
+      position:sticky;
+      top:0px;
+      left:58px;
+      /*width:100px*/ 
+      width:200px;
+     border: 3px solid yellow;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Positioning</h2>
+  <div class="normal">
+    Div with no positioning property
+  </div>
+  <div class="sticky">
+    Div with sticky positioning property
+  </div>
+  <div class="relative">
+    The div element has position: relative;
+    <!--Moves relative to parent div-->
+    <div class="absolute">
+      Absolute div inside relative;
+    </div>
+  </div>
+    <div class="absolute">
+      Absolute class DIV
+    </div>
+  <div class="fixed">
+    Div with fixed positioning property
+  </div>
+    
+  
+</body>
+
+</html>
